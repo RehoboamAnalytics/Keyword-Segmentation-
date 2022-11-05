@@ -1,0 +1,1 @@
+data<-data %>% filter(!grepl('text1|tex2',columntitle,ignore.case=TRUE))
